@@ -3,7 +3,7 @@ const counterReducer = (state, action) => {
         case 'Increment':
             return state +1;
         default:
-            throw new Error();
+            return state +1;
     }
 } 
 export default counterReducer;
